@@ -1,4 +1,6 @@
  # Olist E-commerce Customer Value Optimization & Segmentation
+ [View Olist Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
 
 # Project Overview
 This project focuses on transforming raw transactional data from Olist, Brazil's largest department store, into actionable business intelligence. The core objective is to understand customer behavior, segment the customer base into meaningful groups, and predict customer monetary value. This enables Olist's marketing team to design highly targeted strategies, improve customer retention, and maximize customer lifetime value (CLTV).
