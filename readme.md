@@ -134,3 +134,9 @@ Programming Language: Python
 **Model Persistence:** joblib (for saving models/scalers)
 **Version Control:** Git & GitHub
 
+## 📊 Dashboard
+
+- [Olist Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+- [Presentation on Canva]([https://www.canva.com/design/DAGstpyu7O0/dfiSz8srMF1b_HNgVJ2yOg/edit](https://www.canva.com/design/DAGsyRyrlUU/cFMi0IX7b8Hm6Gnv7S6Pgg/edit?utm_content=DAGsyRyrlUU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
+
+
