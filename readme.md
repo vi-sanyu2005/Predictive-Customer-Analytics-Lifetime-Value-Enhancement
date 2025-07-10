@@ -63,34 +63,34 @@ This project was structured into four key phases:
 
 
 # Methodology & Key Steps
-**notebook 1: Data Integration & Foundational Cleaning**
+## **notebook 1: Data Integration & Foundational Cleaning**
 Integrated 8+ disparate e-commerce CSVs into a single, comprehensive dataset using Pandas, forming a unified view of customer interactions.
 
 Performed foundational data cleaning, including handling missing values, standardizing data types, and identifying/removing duplicates, to ensure data integrity and reliability for subsequent analysis.
 
-**notebook 2: Feature Engineering & Exploratory Data Analysis (EDA)**
-Engineered over 30 high-impact features from raw transactional data, including:
+## **notebook 2: Feature Engineering & Exploratory Data Analysis (EDA)**
+Engineered over **30 high-impact features** from raw transactional data, including:
 
-RFM (Recency, Frequency, Monetary) metrics to quantify customer value.
+**RFM (Recency, Frequency, Monetary)** metrics to quantify customer value.
 
-Product-centric features: average price per customer, total items purchased, number of unique product categories/sellers.
+**Product-centric features:** average price per customer, total items purchased, number of unique product categories/sellers.
 
-Payment-related features: average/max installments, payment type indicators.
+**Payment-related features:** average/max installments, payment type indicators.
 
-Time-based features: customer tenure.
+**Time-based features:** customer tenure.
 
 Geographic features and state-level indicators.
 
-Conducted in-depth EDA using Matplotlib and Seaborn to uncover initial patterns, correlations, and anomalies, revealing key behavioral differences and informing feature selection.
+**Conducted in-depth EDA using Matplotlib and Seaborn** to uncover initial patterns, correlations, and anomalies, revealing key behavioral differences and informing feature selection.
 
-**notebook 3: Customer Segmentation & NLP for Review Insights**
-Leveraged Natural Language Processing (NLP) with NLTK (VADER) to extract sentiment (positive, negative, compound scores) from 1M+ customer reviews, enriching customer profiles with qualitative feedback.
+## **notebook 3: Customer Segmentation & NLP for Review Insights**
+**Leveraged Natural Language Processing (NLP) with NLTK (VADER)** to extract sentiment (positive, negative, compound scores) from 1M+ customer reviews, enriching customer profiles with qualitative feedback.
 
-Segmented over 100,000 unique customers into 2 distinct behavioral groups using K-Means clustering (validated with a 0.65 Silhouette Score).
+**Segmented over 100,000 unique customers into 2 distinct behavioral groups using K-Means clustering (validated with a 0.65 Silhouette Score)**.
 
 Characterized each customer segment based on their unique RFM scores, product preferences, payment behaviors, and aggregated review sentiment, providing actionable profiles for targeted marketing.
 
-**notebook 4: Customer Monetary Value Prediction**
+## **notebook 4: Customer Monetary Value Prediction**
 Developed and rigorously optimized a Customer Monetary Value prediction model using advanced regression techniques.
 
 Utilized XGBoost Regressor (tuned via GridSearchCV and K-Fold Cross-Validation with Scikit-learn) for superior predictive performance, alongside RandomForestRegressor and Logistic Regression for baseline comparisons.
